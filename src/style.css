@@ -1,0 +1,143 @@
+
+.template {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)), url(./midia/background1.jpg);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+/* Estilos para dispositivos maiores */
+
+.main-title {
+padding-top: 30px;
+
+}
+
+.subtitle {
+  font-size: 24px;
+  color: orange;
+  padding-bottom: 40px;
+  text-align: center;
+}
+
+.main-img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.main-passosContainer {
+  margin-left: 40px;
+ justify-content: flex-start;
+}
+
+.main-passos {
+  font-size: 24px;
+  font-weight: bold;
+  padding-bottom: 20px;
+  
+}
+
+.main-passos-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+
+.main-passos-list li {
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+.acesso-ebook {
+  font-size: 20px;
+  padding: 1em 2.7em;
+  font-weight: bold;
+  background: #04c263;
+  color: white;
+  border: none;
+  border-radius: 0.6em;
+  display: flex;
+  margin-top: 20px;
+  cursor: pointer;
+  justify-content: center;
+}
+
+.exclusivo {
+  color: #04c263;
+}
+
+.video-section {
+  background-color: #3a2222;
+  color: white;
+  padding: 40px 0;
+}
+
+.video-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.video-message {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.video {
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+}
+
+.acesso-ebook:hover {
+  background-color: rgb(214, 141, 5);
+}
+
+.faq-container {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  
+}
+.faq-title {
+  font-size: 25px;
+  font-weight: bold;
+  padding-bottom: 20px;
+  justify-content: center;
+}
+
+.faq-div {
+  padding-bottom: 50px;
+}
+
+.faq-div li {
+  padding-bottom: 50px;
+}
+
+.faq-quest {
+  font-weight: bold;
+}
+
+.faq-section {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)), url(./midia/background2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+}
